@@ -1,0 +1,9 @@
+retrieval_date=2026-09-18
+start=2022-01-01
+end=2023-12-31
+ghcnd_station=USW00014821 (JOHN GLENN INTERNATIONAL AIRPORT, OH US)
+ghcnd_url=https://www.ncei.noaa.gov/pub/data/ghcn/daily/by_station/USW00014821.csv.gz
+usgs_site=03227500 (Scioto River at Columbus OH)
+usgs_param=00060 daily mean discharge (cfs)
+join=inner on calendar date; USGS daily values as local calendar day
+proxy_note=demand_proxy is USGS discharge (cfs), NOT metered retail water demand
